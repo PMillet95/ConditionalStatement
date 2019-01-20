@@ -104,14 +104,16 @@ namespace ConditionalStatement
                 
                 else
                 {
-                    Console.WriteLine("Enter a number that is in the grading scale, the program will now close");
+                    Console.WriteLine("Enter a number that is in the grading scale");
+                    Console.WriteLine("The program will now close.");
                     Console.ReadKey(true);
                 }
                 // This message appears when a number that is not in the grading scale is entered.
             }
             catch
             {
-                Console.WriteLine("Please enter a number, the program will no close");
+                Console.WriteLine("Please enter a number");
+                Console.WriteLine("The program will now close");
                 Console.ReadKey(true);
             }
             // This message appears when something besides a number is entered.
